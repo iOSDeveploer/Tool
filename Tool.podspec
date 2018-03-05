@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/iOSDeveploer/Tool.git", :tag => s.version.to_s }
 
-  s.source_files  = "Tool/Tool/**/*.{h,m}"
+  s.source_files  = "Tool/Tools/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
